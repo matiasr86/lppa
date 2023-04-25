@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPPA Actividad clase 3</title>
+</head>
+<body>
+    <header>
+        <h1>GOBIERNO DE LA PROVINCIA DE BUENOS AIRES</h1>
+        <ul>
+            <li>
+                <a href="#">INICIO</a>
+            </li>
+            <li>
+                <a href="#">SOLICITUD DE SISTEMA INFORMATICO</a>
+            </li>
+            <li>
+                <a href="#">GESTION DE USUARIOS</a>
+            </li>
+
+        </ul>
+
+    </header>
+    <main>
+        <h1>GESTION DE USUARIOS</h1>
+        <h3>Complete el siguiente formulario con sus datos</h3>
+        <form action="">
+            <div>
+                <h2>Tipo de solicitud</h2>
+                <div>
+                    <label>* Elija entre Nuevo/ Modificación/ Baja</label>
+                </div>
+                <div>
+                    <select>
+                        <option value selected>- Elija Tipo -</option>
+                        <option value="A">Nuevo Usuario</option>
+                        <option value="M">Modificación de Usuario</option>
+                        <option value="B">Baja de Usuario</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <h2>Datos de Usuario</h2>
+                <div>
+                    <div>
+                        <div>
+                            <label for="nombre">* Nombre y Apellido</label>
+                        </div>
+                        <div>
+                            <input type="text" id="nombre">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div>
+                            <label for="dni">* Dni</label>
+                        </div>
+                        <div>
+                            <input type="number" id="dni">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="fecha-nacimiento">* Fecha Nacimiento</label>
+                        </div>
+                        <div>
+                            <input type="date" id="fecha-nacimiento">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div>
+                            <label for="dependencia">* Dependencia</label>
+                        </div>
+                        <div>
+                            <input type="text" id="dependencia">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="localidad">* Localidad/Partido</label>
+                        </div>
+                        <div>
+                            <input type="text" id="localidad">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div>
+                            <label for="codigo">* Código Provincial</label>
+                        </div>
+                        <div>
+                            <input type="number" id="codigo">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="email">* Mail</label>
+                        </div>
+                        <div>
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="telefono">* Telefono</label>
+                        </div>
+                        <div>
+                            <input type="number" id="telefono">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>Adicional</h2>
+                <div>
+                    <label>* Elija una Opción</label>
+                </div>
+                <div>
+                    <select>
+                        <option value selected>- Elija una opción -</option>
+                        <option value="IN">Intranet</option>
+                        <option value="GD">GDEBA</option>
+                        <option value="TR">Triage</option>
+                    </select>
+                </div>
+
+                <button type="submit">
+                    Generar y descargar PDF
+                </button>
+            </div>
+
+        </form>
+
+    </main>
+    <footer>
+        <legend>Si tiene alguna duda o consulta no dude en ponerse en contacto con nosotros enviandonos un mail a usuarios@ms.gba.gov.ar</legend>
+
+    </footer>
+</body>
+</html>
