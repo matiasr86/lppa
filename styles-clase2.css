@@ -1,0 +1,14 @@
+input{
+    margin-bottom: 30px;
+}
+
+input[type="button"]{
+    background-color: red;
+    border: none;
+}
+
+
+
+select{
+    margin-bottom: 30px;
+}

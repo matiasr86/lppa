@@ -1,0 +1,43 @@
+header {
+    background-color: blue;
+    height: 250px;
+
+}
+
+.nav-list{
+    list-style: none;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+main{
+    background-color: brown;
+}
+
+#art1{
+    font-size:20px;
+    border: 3px solid black;
+}
+
+#art2{
+    color: white;
+    border: 3px solid yellow;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(51, 37, 2);
+    padding: 30px;
+
+}
