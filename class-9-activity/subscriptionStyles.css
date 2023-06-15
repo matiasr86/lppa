@@ -1,0 +1,193 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+html{
+  background-color: black;
+  color: rgb(39, 38, 38);
+  font-family: sans-serif;
+
+}
+
+.row-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.row-nowrap{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  
+}
+
+.column-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+.column-nowrap{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  
+}
+
+
+#logo{
+  display: flex;
+  background-color: orange;
+  justify-content:center;
+  padding: 10px;
+}
+
+
+#img-logo{
+width: 190px;
+height: 100px;
+}
+
+.nav{
+  display: flex;
+  background-color: rgb(44, 43, 43);
+  align-items: center;
+  justify-content: center;
+
+}
+
+.list{
+  list-style: none;
+ 
+}
+
+.list a{
+  font-size: large;
+  color: white;
+  font-size: larger;
+}
+
+.list li{
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  background-color: rgb(230, 226, 226);
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  flex-wrap: nowrap;
+}
+
+#main-title{
+  margin: 5px;
+  color: orange;
+  display: flex;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+  min-width: 250px;
+}
+
+
+img{
+  border-radius: 3%;
+  max-width:95%;
+  padding-bottom: 5px;
+}
+
+.sec-form{
+  background-color: white;
+  display: flex;
+  width: 80%;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.sec-form h3{
+  width: 100%;
+  font-size: 30px;
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+
+.form{
+  justify-content:flex-start;
+}
+
+.userData{
+  padding: 10px;
+  width: 50%;
+}
+
+.userData input{
+  width: 100%;
+}
+
+.send{
+  padding: 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+button{
+  font-size: large;
+  background-color: orange;
+  width: 100%;
+}
+
+
+
+
+.adv{
+  background-color: chartreuse;
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.adv img{
+  width: 95%;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgb(44, 43, 43);
+  height: 150px;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+footer div{
+  justify-content: center;
+}
+
+footer div h4{
+  justify-self: flex-end;
+}
+
+
+@media screen and (max-width: 768px) {
+  .userData{
+    min-width: 300px;
+  }
+
+
+
+  
+
+}
